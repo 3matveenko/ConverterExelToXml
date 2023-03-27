@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ConverterExelToXmlApplication {
 
 	public static void main(String[] args) {
+		Converter converter = new Converter();
+		converter.convert();
 		SpringApplication.run(ConverterExelToXmlApplication.class, args);
 	}
 
